@@ -41,7 +41,7 @@
 
 ## 🌙 Overview
 
-evourCore is a feature-rich client for **DEVOUR**, built on top of **MelonLoader**.  
+DevourCore is a feature-rich client for **DEVOUR**, built on top of **MelonLoader**.  
 It focuses on:
 
 - Higher FPS and better stability  
