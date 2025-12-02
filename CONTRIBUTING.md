@@ -6,7 +6,7 @@ This document describes a simple process to keep the project clean, stable, and 
 
 ---
 
-## 📂 Project Style & Principles
+## Project Style & Principles
 
 - Target runtime: **MelonLoader + DEVOUR**
 - Language: **C#**
@@ -16,7 +16,7 @@ This document describes a simple process to keep the project clean, stable, and 
 
 ---
 
-## 🧩 Branch & Pull Request Workflow
+## Branch & Pull Request Workflow
 
 1. **Fork** the repository.
 2. Create a new branch for your change:
@@ -36,7 +36,7 @@ This document describes a simple process to keep the project clean, stable, and 
 
 ---
 
-## ✅ Coding Guidelines
+## Coding Guidelines
 
 - Follow existing code style in the project.
 - Keep classes and methods **focused on one responsibility**.
@@ -45,7 +45,7 @@ This document describes a simple process to keep the project clean, stable, and 
 
 ---
 
-## 🐞 Reporting Issues
+## Reporting Issues
 
 If you find a bug or want to request a feature:
 
@@ -59,7 +59,7 @@ If you find a bug or want to request a feature:
 
 ---
 
-## 🤝 Code of Conduct
+## Code of Conduct
 
 - Be respectful.
 - Keep discussions technical and constructive.
