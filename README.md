@@ -11,6 +11,15 @@
   <img src="https://img.shields.io/badge/license-GPL--3.0-green" />
 </p>
 
+<!-- NEW BADGES BELOW -->
+<p align="center">
+  <img src="https://img.shields.io/github/downloads/MikasaWong/DevourCore/total?color=blue&label=Total%20Downloads&style=for-the-badge" />
+  <img src="https://img.shields.io/github/downloads/MikasaWong/DevourCore/latest/DevourCore.dll?color=blueviolet&label=Latest%20Download&style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/MikasaWong/DevourCore?color=yellow&label=Stars&style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/MikasaWong/DevourCore?color=orange&label=Issues&style=for-the-badge" />
+  <img src="https://img.shields.io/github/contributors/MikasaWong/DevourCore?color=green&label=Contributors&style=for-the-badge" />
+</p>
+
 ---
 
 ## 🌙 Table of Contents
