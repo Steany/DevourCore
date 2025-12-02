@@ -22,24 +22,24 @@
 
 ---
 
-## 🌙 Table of Contents
+## Table of Contents
 
-- [🌙 Overview](#-overview)
-- [🌙 Installation](#-installation)
-- [🌙 Features](#-features)
-  - [🌙 Optimization](#-optimization)
-  - [🌙 HSV Customization](#-hsv-customization)
-  - [🌙 Speedrun Tools](#-speedrun-tools)
-  - [🌙 Custom FOV](#-custom-fov)
-  - [🌙 Anticheat](#-anticheat)
-  - [🌙 Menu Customization](#-menu-customization)
-  - [🌙 Client Settings](#-client-settings)
-- [🌙 Final Notes](#-final-notes)
-- [🌙 License](#-license)
+- [Overview](#overview)
+- [Installation](#installation)
+- [Features](#features)
+  - [Optimization](#optimization)
+  - [HSV Customization](#hsv-customization)
+  - [Speedrun Tools](#speedrun-tools)
+  - [Custom FOV](#custom-fov)
+  - [Anticheat](#anticheat)
+  - [Menu Customization](#menu-customization)
+  - [Client Settings](#client-settings)
+- [Final Notes](#final-notes)
+- [License](#license)
 
 ---
 
-## 🌙 Overview
+## Overview
 
 DevourCore is a feature-rich client for **DEVOUR**, built on top of **MelonLoader**.  
 It focuses on:
@@ -53,7 +53,7 @@ All features are client-side, non-destructive, and intended for educational and 
 
 ---
 
-## 🌙 Installation
+## Installation
 
 1. **Install MelonLoader**
    - Download MelonLoader from the official website.
@@ -77,13 +77,13 @@ All features are client-side, non-destructive, and intended for educational and 
 
 ---
 
-## 🌙 Features
+## Features
 
 Below is an overview of the main modules and what they provide.
 
 ---
 
-## 🌙 Optimization
+## Optimization
 
 Performance-focused tools to reduce GPU/CPU load and improve frame rate.
 
@@ -97,7 +97,7 @@ Performance-focused tools to reduce GPU/CPU load and improve frame rate.
 
 ---
 
-## 🌙 HSV Customization
+## HSV Customization
 
 Fine-grained color control for UI icons and outfits using HSV (Hue, Saturation, Value).
 
@@ -111,7 +111,7 @@ Fine-grained color control for UI icons and outfits using HSV (Hue, Saturation, 
 
 ---
 
-## 🌙 Speedrun Tools
+## Speedrun Tools
 
 Utilities designed specifically to reduce wasted time and increase run consistency.
 
@@ -129,7 +129,7 @@ Utilities designed specifically to reduce wasted time and increase run consisten
 
 ---
 
-## 🌙 Custom FOV
+## Custom FOV
 
 Customize your field of view beyond in-game limits.
 
@@ -143,7 +143,7 @@ Customize your field of view beyond in-game limits.
 
 ---
 
-## 🌙 Anticheat
+## Anticheat
 
 Basic local anticheat utilities focused on speed anomaly detection.
 
@@ -157,7 +157,7 @@ Basic local anticheat utilities focused on speed anomaly detection.
 
 ---
 
-## 🌙 Menu Customization
+## Menu Customization
 
 Visual and audio customization for the main menu and lobby.
 
@@ -173,7 +173,7 @@ Visual and audio customization for the main menu and lobby.
 
 ---
 
-## 🌙 Client Settings
+## Client Settings
 
 Global configuration panel for DevourCore.
 
@@ -194,7 +194,7 @@ Global configuration panel for DevourCore.
 
 ---
 
-## 🌙 Final Notes
+## Final Notes
 
 DevourCore is intended for **educational, customization, QoL, and speedrunning purposes only**.  
 It operates entirely on the client side and does **not** modify remote servers or online backend systems.
@@ -209,7 +209,7 @@ For issues, suggestions, or feature requests, please open an issue on the reposi
 
 ---
 
-## 🌙 License
+## License
 
 DevourCore is released under the **GNU General Public License v3.0 (GPL-3.0)**.
 
