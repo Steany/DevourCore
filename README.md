@@ -27,13 +27,6 @@
 - [Overview](#overview)
 - [Installation](#installation)
 - [Features](#features)
-  - [Optimization](#optimization)
-  - [HSV Customization](#hsv-customization)
-  - [Speedrun Tools](#speedrun-tools)
-  - [Custom FOV](#custom-fov)
-  - [Anticheat](#anticheat)
-  - [Menu Customization](#menu-customization)
-  - [Client Settings](#client-settings)
 - [Final Notes](#final-notes)
 - [License](#license)
 
