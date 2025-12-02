@@ -13,11 +13,11 @@
 
 <!-- NEW BADGES BELOW -->
 <p align="center">
-  <img src="https://img.shields.io/github/downloads/MikasaWong/DevourCore/total?color=6f42c1&label=Total%20Downloads&style=for-the-badge" />
-  <img src="https://img.shields.io/github/downloads/MikasaWong/DevourCore/latest/DevourCore.dll?color=8a2be2&label=Latest%20Download&style=for-the-badge" />
-  <img src="https://img.shields.io/github/stars/MikasaWong/DevourCore?color=ffdd33&label=Stars&style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues/MikasaWong/DevourCore?color=ff7f50&label=Issues&style=for-the-badge" />
-  <img src="https://img.shields.io/github/contributors/MikasaWong/DevourCore?color=4caf50&label=Contributors&style=for-the-badge" />
+  <img src="https://img.shields.io/github/downloads/MikasaWong/DevourCore/total?color=blue&label=Total%20Downloads&style=for-the-badge" />
+  <img src="https://img.shields.io/github/downloads/MikasaWong/DevourCore/latest/DevourCore.dll?color=blueviolet&label=Latest%20Download&style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/MikasaWong/DevourCore?color=yellow&label=Stars&style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/MikasaWong/DevourCore?color=orange&label=Issues&style=for-the-badge" />
+  <img src="https://img.shields.io/github/contributors/MikasaWong/DevourCore?color=green&label=Contributors&style=for-the-badge" />
 </p>
 
 ---
