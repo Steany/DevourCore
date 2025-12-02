@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-purple.svg" />
   <img src="https://img.shields.io/badge/game-DEVOUR-blueviolet" />
-  <img src="https://img.shields.io/badge/loader-MelonLoader-orange" />
+  <img src="https://img.shields.io/badge/loader-MelonLoader-6f42c1" />
   <img src="https://img.shields.io/badge/license-GPL--3.0-green" />
 </p>
 
