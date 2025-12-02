@@ -7,10 +7,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-purple.svg" />
   <img src="https://img.shields.io/badge/game-DEVOUR-blueviolet" />
-  <img src="https://img.shields.io/badge/loader-MelonLoader-6f42c1" />
+  <img src="https://img.shields.io/badge/loader-MelonLoader-orange" />
   <img src="https://img.shields.io/badge/license-GPL--3.0-green" />
 </p>
 
+<!-- NEW BADGES BELOW -->
 <p align="center">
   <img src="https://img.shields.io/github/downloads/MikasaWong/DevourCore/total?color=6f42c1&label=Total%20Downloads&style=for-the-badge" />
   <img src="https://img.shields.io/github/downloads/MikasaWong/DevourCore/latest/DevourCore.dll?color=8a2be2&label=Latest%20Download&style=for-the-badge" />
