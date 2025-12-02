@@ -103,15 +103,15 @@ Fine-grained color control for UI icons and outfits using HSV (Hue, Saturation, 
 
 ## Speedrun Tools
 
-Utilities designed specifically to reduce wasted time and increase run consistency.
+Utilities designed specifically for speedrunning categories.
 
 ![Speedrun](./images/speedrun.png)
 
 - **Instant Interaction**  
-  Removes interaction delay for faster gameplay flow.
+  Completely removes long interactions.
 
 - **Attic Spawn**  
-  Forces a consistent spawn position (e.g., attic) for reliable routing.
+  Brings back the old attic spawn bug.
 
 - **Auto Start**  
   Automatically starts the game when returning to the lobby to avoid time loss.  
@@ -158,7 +158,7 @@ Visual and audio customization for the main menu and lobby.
   `Farmhouse, Asylum, Inn, Town, Slaughterhouse, Manor, Carnival`.
 
 - **Music Controls**  
-  - Disable in-game music globally.  
+  - Disable music when in a match.  
   - Remember the selected menu music between sessions.
 
 ---
@@ -170,7 +170,7 @@ Global configuration panel for DevourCore.
 ![Settings](./images/settings.png)
 
 - **Menu Keybind**  
-  Change which key opens the DevourCore menu.
+  Change which keybind opens the DevourCore menu.
 
 - **Theme Color**  
   Set the overall theme color for the client UI.
@@ -187,13 +187,6 @@ Global configuration panel for DevourCore.
 ## Final Notes
 
 DevourCore is intended for **educational, customization, QoL, and speedrunning purposes only**.  
-It operates entirely on the client side and does **not** modify remote servers or online backend systems.
-
-By using this project, you agree to:
-
-- Respect the **EULA** and **terms of service** of DEVOUR and related platforms.  
-- Use the client responsibly and at your own risk.  
-- Avoid disrupting the experience of other players.
 
 For issues, suggestions, or feature requests, please open an issue on the repository.
 
