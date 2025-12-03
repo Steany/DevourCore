@@ -189,7 +189,7 @@ Global configuration panel for DevourCore.
 
 ## Final Notes
 
-DevourCore is intended for **educational, customization, QoL, and speedrunning purposes only**.  
+DevourCore is intended for **educational, customization, QoL, and speedrunning purposes**.  
 
 For issues, suggestions, or feature requests, please open an issue on the repository.
 
