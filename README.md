@@ -113,4 +113,5 @@ Use responsibly and avoid disrupting other players.
 ## License
 
 DevourCore is licensed under the **GNU GPL-3.0**.  
-See the `LICENSE` file for details.
+See the [LICENSE](./LICENSE) file for details.
+
