@@ -1,7 +1,7 @@
 # DevourCore
 
 <p align="center">
-  <b>A client for DEVOUR with QoL features, performance improvements, speedrunning tools and visual customization.</b>
+  <b>A client for DEVOUR with QoL features, performance mods, speedrunning tools, and visual customization.</b>
 </p>
 
 <p align="center">
