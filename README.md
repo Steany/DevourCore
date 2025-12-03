@@ -23,11 +23,11 @@
 ---
 
 ## Table of Contents
-- Overview
-- Installation
-- Features
-- Final Notes
-- License
+- [Overview](#overview)
+- [Installation](#installation)
+- [Features](#features)
+- [Final Notes](#final-notes)
+- [License](#license)
 
 ---
 
