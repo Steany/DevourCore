@@ -2,18 +2,18 @@
 
 <p align="center">
   <!-- Top row -->
-  <img src="https://img.shields.io/badge/game-devour-blueviolet" />
-  <img src="https://img.shields.io/badge/loader-melonloader-orange" />
-  <img src="https://img.shields.io/badge/license-GPL--3.0-green" />
-  <img src="https://img.shields.io/badge/version-1.0.0-purple" />
+  <a href="https://store.steampowered.com/app/1274570/DEVOUR/"><img src="https://img.shields.io/badge/game-devour-blueviolet" /></a>
+  <a href="https://melonwiki.xyz/"><img src="https://img.shields.io/badge/loader-melonloader-orange" /></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-green" /></a>
+  <a href="https://github.com/Steany/DevourCore/releases"><img src="https://img.shields.io/badge/version-1.0.0-purple" /></a>
 </p>
 
 <p align="center" style="margin-top: 10px;">
   <!-- Second row -->
-  <img src="https://img.shields.io/github/stars/Steany/DevourCore?label=stars&color=yellow" />
-  <img src="https://img.shields.io/github/issues/Steany/DevourCore?label=issues&color=orange" />
-  <img src="https://img.shields.io/github/contributors/Steany/DevourCore?label=contributors&color=blue" />
-  <img src="https://img.shields.io/github/downloads/Steany/DevourCore/latest/DevourCore.dll?label=latest%20download&color=blueviolet" />
+  <a href="https://github.com/Steany/DevourCore/stargazers"><img src="https://img.shields.io/github/stars/Steany/DevourCore?label=stars&color=yellow" /></a>
+  <a href="https://github.com/Steany/DevourCore/issues"><img src="https://img.shields.io/github/issues/Steany/DevourCore?label=issues&color=orange" /></a>
+  <a href="https://github.com/Steany/DevourCore/graphs/contributors"><img src="https://img.shields.io/github/contributors/Steany/DevourCore?label=contributors&color=blue" /></a>
+  <a href="https://github.com/Steany/DevourCore/releases/latest"><img src="https://img.shields.io/github/downloads/Steany/DevourCore/latest/DevourCore.dll?label=latest%20download&color=blueviolet" /></a>
 </p>
 
 <p align="center">
