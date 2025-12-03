@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0] - Initial Release
+## [1.0] - Initial Release
 
 - Added **Optimization** tab (render distance, weather effects).
 - Added **HSV** tab (666 icon color HSV, outfit HSV).
