@@ -1,70 +1,74 @@
 # Contributing to DevourCore
 
-Thank you for considering contributing to **DevourCore**!
-
-This document describes a simple process to keep the project clean, stable, and easy to work with.
+Thank you for your interest in contributing to **DevourCore**.  
+This document outlines a simple and clean workflow to help keep the project organized, stable, and easy to maintain.
 
 ---
 
-## 📂 Project Style & Principles
+## Project Style & Principles
 
-- Target runtime: **MelonLoader + DEVOUR**
+- Runtime target: **MelonLoader + DEVOUR**
 - Language: **C#**
-- Keep changes **modular** (tabs, features, helpers).
-- Prefer **clear names** over short ones.
-- Avoid unnecessary dependencies.
+- Keep new additions **modular** (separate classes, tabs, helpers)
+- Use **clear and descriptive names**
+- Avoid adding unnecessary dependencies
+- Maintain consistency with the existing codebase
 
 ---
 
-## 🧩 Branch & Pull Request Workflow
+## Branch & Pull Request Workflow
 
 1. **Fork** the repository.
-2. Create a new branch for your change:
-   ```bash
-   git checkout -b feature/my-new-feature
-   ```
-3. Make your changes and add tests or examples if applicable.
-4. Run your build locally and verify it works in-game.
-5. Commit with a clear message:
-   ```bash
-   git commit -m "Add X feature to Speedrun tab"
-   ```
-6. Push your branch and open a **Pull Request**:
-   - Describe what you changed.
-   - Attach screenshots if it's a UI/visual change.
-   - Mention any known limitations.
+2. Create a dedicated branch for your change:
+
+```
+git checkout -b feature/my-new-feature
+```
+
+3. Implement your changes and test them in-game.
+4. Commit with a clear and concise message:
+
+```
+git commit -m "Add new feature to Speedrun tab"
+```
+
+5. Push your branch and open a **Pull Request**.
+   - Explain what you changed.
+   - Include screenshots if the update affects the UI.
+   - Mention any known limitations or follow-up ideas.
 
 ---
 
-## ✅ Coding Guidelines
+## Coding Guidelines
 
-- Follow existing code style in the project.
-- Keep classes and methods **focused on one responsibility**.
-- Use **comments** where behavior is non-obvious.
-- Avoid hardcoding map-specific or player-specific data where possible; use configs/preferences instead.
-
----
-
-## 🐞 Reporting Issues
-
-If you find a bug or want to request a feature:
-
-- Open a **GitHub Issue**.
-- Include:
-  - DEVOUR version
-  - MelonLoader version
-  - DevourCore version
-  - Steps to reproduce
-  - Log excerpts if relevant (without sensitive information)
+- Follow the existing style and structure of the project.
+- Keep functions and classes focused on one task.
+- Add comments where the logic may not be immediately obvious.
+- Use configuration/preferences instead of hardcoded values whenever possible.
+- Keep changes small and readable.
 
 ---
 
-## 🤝 Code of Conduct
+## Reporting Issues
 
-- Be respectful.
-- Keep discussions technical and constructive.
-- Remember that everyone is here to learn and improve.
+If you encounter a bug or want to request a new feature, please open a **GitHub Issue**.  
+Including the following details helps reproduce and fix the problem:
+
+- DEVOUR version  
+- MelonLoader version  
+- DevourCore version  
+- Steps to reproduce the issue  
+- Relevant log output (without sensitive information)
 
 ---
 
-Thank you again for helping improve **DevourCore**.
+## Code of Conduct
+
+- Keep communication respectful and constructive.
+- Focus on technical clarity and collaboration.
+- Remember that the goal is to improve the project for everyone.
+
+---
+
+Thank you again for contributing to **DevourCore**.  
+Your time and effort are appreciated.
