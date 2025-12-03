@@ -41,7 +41,7 @@ It focuses on performance improvements, visual customization, speedrunning utili
 ## Installation
 
 ### 1. Install .NET 6.0  
-Download - Install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) if you do not have it already.
+Download [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) if you do not have it already.
 
 ### 2. Install MelonLoader  
 Download [MelonLoader](https://melonwiki.xyz/#/) and point the installer to `DEVOUR.exe`.
