@@ -50,7 +50,7 @@ Download [MelonLoader](https://melonwiki.xyz/#/) and point the installer to `DEV
 MelonLoader will generate necessary folders.
 
 ### 4. Install DevourCore  
-Download **DevourCore.dll** from the [Releases](https://github.com/Steany/DevourCore/releases/tag/v1.0.0) section.
+Download **DevourCore.dll** from the [Releases](https://github.com/Steany/DevourCore/releases) section.
  page and place it in:
 
 ```
