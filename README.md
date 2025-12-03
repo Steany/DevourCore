@@ -1,18 +1,23 @@
 # DevourCore
 
 <p align="center">
-  <b>A lightweight client for DEVOUR with QoL features, performance tools, speedrun utilities, and visual customization.</b>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/Steany/DevourCore?label=stars&color=yellow" />
-  <img src="https://img.shields.io/github/issues/Steany/DevourCore?label=issues&color=orange" />
-  <img src="https://img.shields.io/github/contributors/Steany/DevourCore?label=contributors&color=blue" />
-  <img src="https://img.shields.io/github/downloads/Steany/DevourCore/latest/DevourCore.dll?label=latest%20download&color=blueviolet" />
+  <!-- Top row -->
   <img src="https://img.shields.io/badge/game-devour-blueviolet" />
   <img src="https://img.shields.io/badge/loader-melonloader-orange" />
   <img src="https://img.shields.io/badge/license-GPL--3.0-green" />
   <img src="https://img.shields.io/badge/version-1.0.0-purple" />
+</p>
+
+<p align="center" style="margin-top: 10px;">
+  <!-- Second row -->
+  <img src="https://img.shields.io/github/stars/Steany/DevourCore?label=stars&color=yellow" />
+  <img src="https://img.shields.io/github/issues/Steany/DevourCore?label=issues&color=orange" />
+  <img src="https://img.shields.io/github/contributors/Steany/DevourCore?label=contributors&color=blue" />
+  <img src="https://img.shields.io/github/downloads/Steany/DevourCore/latest/DevourCore.dll?label=latest%20download&color=blueviolet" />
+</p>
+
+<p align="center">
+  <b>A lightweight client for DEVOUR with QoL features, performance tools, speedrun utilities, and visual customization.</b>
 </p>
 
 ---
