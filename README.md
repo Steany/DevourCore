@@ -41,16 +41,17 @@ It focuses on performance improvements, visual customization, speedrunning utili
 ## Installation
 
 ### 1. Install .NET 6.0  
-Download and install it from Microsoft’s official website if needed.
+Download - Install [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) if you do not have it already.
 
 ### 2. Install MelonLoader  
-Download MelonLoader and point the installer to `DEVOUR.exe`.
+Download [MelonLoader](https://melonwiki.xyz/#/) and point the installer to `DEVOUR.exe`.
 
 ### 3. Run DEVOUR once  
 MelonLoader will generate necessary folders.
 
 ### 4. Install DevourCore  
-Download **DevourCore.dll** from the Releases page and place it in:
+Download **DevourCore.dll** from the [Releases](https://github.com/YourUser/YourRepo/releases) section.
+ page and place it in:
 
 ```
 DEVOUR/Mods/
