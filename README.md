@@ -12,7 +12,7 @@
   <!-- Second row -->
   <a href="https://github.com/Steany/DevourCore/stargazers"><img src="https://img.shields.io/github/stars/Steany/DevourCore?label=stars&color=yellow" /></a>
   <a href="https://github.com/Steany/DevourCore/issues"><img src="https://img.shields.io/github/issues/Steany/DevourCore?label=issues&color=orange" /></a>
-  <a href="https://github.com/Steany/DevourCore/graphs/contributors"><img src="https://img.shields.io/github/contributors/Steany/DevourCore?label=contributors&color=blue" /></a>
+  <a href="https://github.com/Steany/DevourCore/releases"><img src="https://img.shields.io/github/downloads/Steany/DevourCore/total?label=total%20downloads&color=blue" /></a>
   <a href="https://github.com/Steany/DevourCore/releases/latest"><img src="https://img.shields.io/github/downloads/Steany/DevourCore/latest/DevourCore.dll?label=latest%20download&color=blueviolet" /></a>
 </p>
 
@@ -114,4 +114,3 @@ Use responsibly and avoid disrupting other players.
 
 DevourCore is licensed under the **GNU GPL-3.0**.  
 See the [LICENSE](./LICENSE) file for details.
-
