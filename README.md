@@ -1,7 +1,7 @@
 # DevourCore
 
 <p align="center">
-  <b>Advanced client for DEVOUR focused on performance, customization, QoL improvements, and speedrunning utilities.</b>
+  <b>A client for DEVOUR with QoL features, performance improvements, speedrunning tools and visual customization..</b>
 </p>
 
 <p align="center">
@@ -34,26 +34,29 @@
 DevourCore is a feature-rich client for **DEVOUR**, built on top of **MelonLoader**.  
 It focuses on:
 
-- Higher FPS and better stability  
-- Deep visual and color customization  
-- Speedrun-oriented quality-of-life features  
+- Performance optimization
+- Visual customization  
+- Speedruning tools
+- Quality of life features  
 - Basic client-side anticheat utilities
-
-All features are client-side, non-destructive, and intended for educational and customization purposes.
 
 ---
 
 ## Installation
 
-1. **Install MelonLoader**
-   - Download MelonLoader from the official website.
+1. **Install .NET 6.0**
+   - Download [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) if you do not have it already.
+   - Run the installer.
+  
+2. **Install MelonLoader**
+   - Download [MelonLoader](https://melonwiki.xyz/#/) from the official website.
    - Run the installer and select your `DEVOUR.exe`.
 
-2. **Run DEVOUR once**
+3. **Run DEVOUR once**
    - After MelonLoader is installed, start DEVOUR once.
    - This will automatically create the `Mods` folder in the game directory.
 
-3. **Install DevourCore**
+4. **Install DevourCore**
    - Go to this repository's **Releases** section.
    - Download **DevourCore.dll**.
    - Place it into:
@@ -61,9 +64,9 @@ All features are client-side, non-destructive, and intended for educational and 
      DEVOUR/Mods/
      ```
 
-4. **Launch DEVOUR**
+5. **Launch DEVOUR**
    - Start the game normally.
-   - DevourCore will be loaded automatically by MelonLoader.
+   - DevourCore should be correctly installed.
 
 ---
 
