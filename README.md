@@ -57,7 +57,7 @@ It focuses on:
    - This will automatically create the `Mods` folder in the game directory.
 
 4. **Install DevourCore**
-   - Go to this repository's **Releases** section.
+   - Go to this repository's [Releases](https://github.com/Steany/DevourCore/releases) section.
    - Download **DevourCore.dll**.
    - Place it into:
      ```text
