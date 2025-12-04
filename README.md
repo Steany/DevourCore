@@ -35,18 +35,6 @@
 
 ---
 
-## Installation Guide
-
-If you prefer a visual walkthrough, you can follow this step-by-step installation video:
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=ieNMBJRRUWY">
-    <img src="https://img.shields.io/badge/YouTube-Installation%20Tutorial-red?logo=youtube" />
-  </a>
-</p>
-
----
-
 ## Overview
 
 DevourCore is a feature-rich modular client built for DEVOUR using MelonLoader.  
@@ -75,6 +63,18 @@ DEVOUR/Mods/
 
 ### 5. Launch the game  
 DevourCore will load automatically.
+
+---
+
+## Installation Video
+
+If you prefer a visual walkthrough, you can follow this step-by-step installation video:
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=ieNMBJRRUWY">
+    <img src="https://img.shields.io/badge/YouTube-Installation%20Tutorial-red?logo=youtube" />
+  </a>
+</p>
 
 ---
 
