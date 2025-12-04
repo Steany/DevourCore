@@ -17,20 +17,33 @@
 </p>
 
 <p align="center">
-  <b>A lightweight client for DEVOUR with QoL features, performance tools, speedrun utilities, and visual customization.</b> <p align="center">
-  <a href="https://github.com/Steany/DevourCore/blob/main/READMECN.md"><b>(For Chinese Speakers / 中文版请点击这里)</b></a>
-</p>
-
+  <b>A lightweight client for DEVOUR with QoL features, performance tools, speedrun utilities, and visual customization.</b> 
+  <p align="center">
+    <a href="https://github.com/Steany/DevourCore/blob/main/READMECN.md"><b>(For Chinese Speakers / 中文版请点击这里)</b></a>
+  </p>
 </p>
 
 ---
 
 ## Table of Contents
+- [Installation Guide](#installation-guide)
 - [Overview](#overview)
 - [Installation](#installation)
 - [Features](#features)
 - [Final Notes](#final-notes)
 - [License](#license)
+
+---
+
+## Installation Guide
+
+If you prefer a visual walkthrough, you can follow this step-by-step installation video:
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=ieNMBJRRUWY">
+    <img src="https://img.shields.io/badge/YouTube-Installation%20Tutorial-red?logo=youtube" />
+  </a>
+</p>
 
 ---
 
@@ -53,8 +66,8 @@ Download [MelonLoader](https://melonwiki.xyz/#/) and point the installer to `DEV
 MelonLoader will generate necessary folders.
 
 ### 4. Install DevourCore  
-Download **DevourCore.dll** from the [Releases](https://github.com/Steany/DevourCore/releases) section.
- page and place it in:
+Download **DevourCore.dll** from the [Releases](https://github.com/Steany/DevourCore/releases) section  
+and place it in:
 
 ```
 DEVOUR/Mods/
