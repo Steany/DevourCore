@@ -28,7 +28,6 @@
 - [功能](#功能)
 - [最终说明](#最终说明)
 - [许可证](#许可证)
-- [致谢（Credits）](#致谢credits)
 - [原始项目链接](#原始项目链接)
 
 ---
@@ -43,16 +42,16 @@ DevourCore 是一个为 DEVOUR 基于 MelonLoader 所构建的模块化高功能
 ## 安装
 
 ### 1. 安装 .NET 6.0  
-如果需要，请从微软官方网站下载并安装。
+下载 [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) 如果你尚未安装。
 
 ### 2. 安装 MelonLoader  
-下载 MelonLoader，并将安装程序指向 `DEVOUR.exe`。
+下载 [MelonLoader](https://melonwiki.xyz/#/) 并将安装程序指向 `DEVOUR.exe`。
 
-### 3. 启动一次 DEVOUR  
-MelonLoader 会自动生成所需的文件夹。
+### 3. 运行一次 DEVOUR  
+MelonLoader 会生成必要的文件夹。
 
 ### 4. 安装 DevourCore  
-从 Releases 页面下载 **DevourCore.dll** 并将其放入：
+从 [Releases](https://github.com/Steany/DevourCore/releases) 页面下载 **DevourCore.dll** 并将其放置在：
 
 ```
 DEVOUR/Mods/
