@@ -71,7 +71,7 @@ DevourCore will load automatically.
 If you prefer a visual walkthrough, you can follow this step-by-step installation video:
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=ieNMBJRRUWY">
+  <a href="https://youtu.be/-xMP3mihvD8">
     <img src="https://img.shields.io/badge/YouTube-Installation%20Tutorial-red?logo=youtube" />
   </a>
 </p>
