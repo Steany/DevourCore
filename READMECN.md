@@ -118,15 +118,4 @@ DevourCore 专为自定义、实验性功能以及游戏便捷性改进而设计
 DevourCore 使用 **GNU GPL-3.0** 许可证发布。  
 详情请查看 [LICENSE](./LICENSE) 文件。
 
----
 
-## 致谢
-
-本项目的详细致谢名单请查看 → **[点击查看](./CREDITS.md)**
-
----
-
-## 原始项目链接
-
-本仓库为中文版本。  
-如需查看 **[DevourCore](https://github.com/Steany/DevourCore)** 的原始英文项目，请访问。
