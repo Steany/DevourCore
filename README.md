@@ -17,7 +17,10 @@
 </p>
 
 <p align="center">
-  <b>A lightweight client for DEVOUR with QoL features, performance tools, speedrun utilities, and visual customization.</b>
+  <b>A lightweight client for DEVOUR with QoL features, performance tools, speedrun utilities, and visual customization.</b> <p align="center">
+  <a href="https://github.com/Steany/DevourCore/blob/main/READMECN.md"><b>(For Chinese Speakers / 中文版请点击这里)</b></a>
+</p>
+
 </p>
 
 ---
