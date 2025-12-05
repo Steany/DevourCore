@@ -37,7 +37,7 @@
 
 ## 概述
 
-DevourCore 是一个为 DEVOUR 基于 MelonLoader 所构建的模块化高功能客户端。  
+DevourCore 是一个为 DEVOUR 基于 MelonLoader 构建的模块化客户端。  
 它专注于性能优化、视觉自定义、速通工具以及整体游戏体验改进（QoL）。
 
 ---
@@ -48,13 +48,13 @@ DevourCore 是一个为 DEVOUR 基于 MelonLoader 所构建的模块化高功能
 下载 [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) 如果你尚未安装。
 
 ### 2. 安装 MelonLoader  
-下载 [MelonLoader](https://melonwiki.xyz/#/) 并将安装程序指向 `DEVOUR.exe`。
+下载 [MelonLoader](https://melonwiki.xyz/#/) 并选择 `DEVOUR.exe`。
 
 ### 3. 运行一次 DEVOUR  
-MelonLoader 会生成必要的文件夹。
+MelonLoader 会生成必要文件夹。
 
 ### 4. 安装 DevourCore  
-从 [Releases](https://github.com/Steany/DevourCore/releases) 页面下载 **DevourCore.dll** 并将其放置在：
+从 [Releases](https://github.com/Steany/DevourCore/releases) 下载 **DevourCore.dll** 并放置到：
 
 ```
 DEVOUR/Mods/
@@ -68,43 +68,48 @@ DevourCore 会自动加载。
 ## 功能
 
 ### 性能优化
-![Optimization](./images/optimizeZN.png)
+![Optimization](./images/OptimizeZN.PNG)
 
 ### 自定义
-![HSV](./images/hsvZN.png)
+![HSV](./images/hsvZN.PNG)
 
 ### 速通工具
-![Speedrun](./images/speedrunZN.png)
+![Speedrun](./images/speedrunZN.PNG)
 
 ### 自定义视野
-![FOV](./images/fovZN.png)
+![FOV](./images/fovZN.PNG)
 
 ### 反作弊监测
-![Anticheat](./images/anticheatZN.png)
+![Anticheat](./images/anticheatZN.PNG)
 
 ### 菜单自定义
-![Menu](./images/menuZN.png)
+![Menu](./images/menuZN.PNG)
 
 ### 客户端设置
-![Settings](./images/settingsZN.png)
+![Settings](./images/settingsZN.PNG)
 
 ---
 
 ## 信息系统
 ![Info](./images/InfoZN.png)
 
-当鼠标悬停在每个分类中的 **i 图标** 上时，会显示对应功能的详细说明，包括作用、使用建议、技术行为及注意事项等。
+悬停在每个分类标题旁的小型 **i 图标** 上时，会显示该功能的详细说明，包括：
+
+- 功能作用  
+- 推荐使用方式  
+- 技术说明  
+- 注意事项与限制  
 
 ---
 
 ## 最终说明
 
-DevourCore 专为自定义、实验性功能以及游戏便捷性改进而设计。  
+DevourCore 专为自定义、实验性功能以及游戏便捷性提升而设计。  
 请合理使用，避免影响其他玩家。
 
 ---
 
 ## 许可证
 
-DevourCore 使用 **GNU GPL-3.0** 许可证发布。  
-详情请查看 [LICENSE](./LICENSE) 文件。
+DevourCore 使用 **GNU GPL‑3.0** 开源协议。  
+详见 [LICENSE](./LICENSE)。
