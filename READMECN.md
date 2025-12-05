@@ -37,7 +37,7 @@
 
 ## 概述
 
-DevourCore 是一个为 DEVOUR 基于 MelonLoader 构建的模块化客户端。  
+DevourCore 是一个为 DEVOUR 基于 MelonLoader 所构建的模块化高功能客户端。  
 它专注于性能优化、视觉自定义、速通工具以及整体游戏体验改进（QoL）。
 
 ---
@@ -48,13 +48,13 @@ DevourCore 是一个为 DEVOUR 基于 MelonLoader 构建的模块化客户端。
 下载 [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) 如果你尚未安装。
 
 ### 2. 安装 MelonLoader  
-下载 [MelonLoader](https://melonwiki.xyz/#/) 并选择 `DEVOUR.exe`。
+下载 [MelonLoader](https://melonwiki.xyz/#/) 并将安装程序指向 `DEVOUR.exe`。
 
 ### 3. 运行一次 DEVOUR  
-MelonLoader 会生成必要文件夹。
+MelonLoader 会生成必要的文件夹。
 
 ### 4. 安装 DevourCore  
-从 [Releases](https://github.com/Steany/DevourCore/releases) 下载 **DevourCore.dll** 并放置到：
+从 [Releases](https://github.com/Steany/DevourCore/releases) 下载 **DevourCore.dll** 并将其放置在：
 
 ```
 DEVOUR/Mods/
@@ -68,48 +68,67 @@ DevourCore 会自动加载。
 ## 功能
 
 ### 性能优化
-![Optimization](./images/OptimizeZN.PNG)
+![Optimization](./images/OptimizeZN.PNG)  
+- 渲染距离控制  
+- 禁用天气效果  
 
 ### 自定义
-![HSV](./images/hsvZN.PNG)
+![HSV](./images/hsvZN.PNG)  
+- 666 图标 调整  
+- 服装 颜色控制  
 
 ### 速通工具
-![Speedrun](./images/speedrunZN.PNG)
+![Speedrun](./images/speedrunZN.PNG)  
+- 即时交互（瞬时拾取/开门等）  
+- 阁楼刷新行为控制  
+- 自动开始（可设置延迟）  
 
 ### 自定义视野
-![FOV](./images/fovZN.PNG)
+![FOV](./images/fovZN.PNG)  
+- 可调节视野数值  
+- 热键快速切换  
 
 ### 反作弊监测
-![Anticheat](./images/anticheatZN.PNG)
+![Anticheat](./images/anticheatZN.PNG)  
+- 移动速度异常检测  
+- 可配置报警系统  
 
 ### 菜单自定义
-![Menu](./images/menuZN.PNG)
+![Menu](./images/menuZN.PNG)  
+- 基于地图的菜单背景切换  
+- 菜单/大厅音乐开关  
 
 ### 客户端设置
-![Settings](./images/settingsZN.PNG)
+![Settings](./images/settingsZN.PNG)  
+- 菜单快捷键  
+- 主题颜色  
+- 功能分类开启/关闭  
+- 完全重置选项  
 
 ---
 
 ## 信息系统
 ![Info](./images/InfoZN.png)
 
-悬停在每个分类标题旁的小型 **i 图标** 上时，会显示该功能的详细说明，包括：
+将鼠标悬停在各分类名称旁的 **i 图标** 上时，会显示该功能的详细说明，包括：
 
 - 功能作用  
 - 推荐使用方式  
-- 技术说明  
+- 技术行为说明  
 - 注意事项与限制  
+
+该系统让用户无需额外文档即可了解每项功能。
 
 ---
 
 ## 最终说明
 
-DevourCore 专为自定义、实验性功能以及游戏便捷性提升而设计。  
+DevourCore 专为自定义、实验性功能以及游戏便捷性改进而设计。  
 请合理使用，避免影响其他玩家。
 
 ---
 
 ## 许可证
 
-DevourCore 使用 **GNU GPL‑3.0** 开源协议。  
-详见 [LICENSE](./LICENSE)。
+DevourCore 使用 **GNU GPL-3.0** 许可证发布。  
+详情请查看 [LICENSE](./LICENSE) 文件。
