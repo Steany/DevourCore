@@ -17,10 +17,10 @@
 </p>
 
 <p align="center">
-  <b>一个轻量级的 DEVOUR 客户端，包含便捷功能（QoL）、性能工具、速通辅助以及视觉自定义。</b> <p align="center">
-  <a href="https://github.com/Steany/DevourCore"><b>(原始项目链接)</b></a>
-</p>
-
+  <b>一个轻量级的 DEVOUR 客户端，包含便捷功能（QoL）、性能工具、速通辅助以及视觉自定义。</b>
+  <p align="center">
+    <a href="https://github.com/Steany/DevourCore"><b>(原始项目链接)</b></a>
+  </p>
 </p>
 
 ---
@@ -29,6 +29,7 @@
 - [概述](#概述)
 - [安装](#安装)
 - [功能](#功能)
+- [信息系统](#信息系统)
 - [最终说明](#最终说明)
 - [许可证](#许可证)
 
@@ -67,42 +68,57 @@ DevourCore 会自动加载。
 ## 功能
 
 ### 性能优化
-![Optimization](./images/optimize.png)  
+![Optimization](./images/optimizeZN.png)  
 - 渲染距离控制  
 - 禁用天气效果  
 
 ### 自定义
-![HSV](./images/hsv.png)  
+![HSV](./images/hsvZN.png)  
 - 666 图标 调整  
 - 服装 控制  
 
 ### 速通工具
-![Speedrun](./images/speedrun.png)  
+![Speedrun](./images/speedrunZN.png)  
 - 即时交互  
 - 阁楼刷新行为调整  
 - 自动开始（可设置延迟）  
 
 ### 自定义视野
-![FOV](./images/fov.png)  
-- 可调节 
+![FOV](./images/fovZN.png)  
+- 可调节视野  
 - 热键切换  
 
 ### 反作弊监测
-![Anticheat](./images/anticheat.png)  
+![Anticheat](./images/anticheatZN.png)  
 - 移动/速度异常检测  
 - 可配置警告系统  
 
 ### 菜单自定义
-![Menu](./images/menu.png)  
+![Menu](./images/menuZN.png)  
 - 基于地图的菜单背景  
 - 切换菜单/大厅音乐  
 
 ### 客户端设置
-![Settings](./images/settings.png)  
+![Settings](./images/settingsZN.png)  
 - 菜单快捷键  
 - 主题颜色  
 - 分类开关  
 - 完全重置选项  
+
+---
+
+## 信息系统
+![Info](./images/InfoZN.png)
+
+DevourCore 在每个主要分类中都包含一个 **“i” 信息图标**。  
+将鼠标悬停在这些图标上时，会显示详细说明，例如：
+
+- 功能作用  
+- 推荐使用方式  
+- 技术行为说明  
+- 注意事项、限制提示等  
+
+此系统旨在让用户无需查阅外部文档即可清楚理解每项功能。
 
 ---
 
@@ -117,5 +133,3 @@ DevourCore 专为自定义、实验性功能以及游戏便捷性改进而设计
 
 DevourCore 使用 **GNU GPL-3.0** 许可证发布。  
 详情请查看 [LICENSE](./LICENSE) 文件。
-
-
