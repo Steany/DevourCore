@@ -30,6 +30,7 @@
 - [Overview](#overview)
 - [Installation](#installation)
 - [Features](#features)
+- [Info System](#info-system)
 - [Final Notes](#final-notes)
 - [License](#license)
 
@@ -117,6 +118,21 @@ If you prefer a visual walkthrough, you can follow this step-by-step installatio
 - Theme color  
 - Category toggles  
 - Full reset option  
+
+---
+
+## Info System
+![Info](./images/Info.png)
+
+DevourCore includes an integrated **Info System** displayed as a small **“i” icon** in every major category.  
+When you hover your mouse over these icons, a detailed tooltip appears explaining:
+
+- What the feature does  
+- Recommended usage  
+- Technical behavior  
+- Notes, limitations, and warnings if necessary  
+
+This system provides clarity and ensures users can fully understand each feature without external documentation.
 
 ---
 
