@@ -55,7 +55,7 @@ DevourCore 是一个为 DEVOUR 基于 MelonLoader 所构建的模块化高功能
 MelonLoader 会生成必要的文件夹。
 
 ### 4. 安装 DevourCore  
-从 [Releases](https://github.com/Steany/DevourCore/releases) 下载 **DevourCore.dll** 并将其放置在：
+从 [Releases](https://github.com/Steany/DevourCore/releases) 下载 **DevourCoreZN.dll** 并将其放置在：
 
 ```
 DEVOUR/Mods/
