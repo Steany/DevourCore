@@ -54,7 +54,7 @@ DevourCore 是一个为 DEVOUR 基于 MelonLoader 所构建的模块化高功能
 MelonLoader 会生成必要的文件夹。
 
 ### 4. 安装 DevourCore  
-从 [Releases](https://github.com/Steany/DevourCore/releases) 下载 **DevourCoreZN.dll** 并将其放置在：
+从 [Releases](https://github.com/Steany/DevourCore/releases) 下载 **DevourCore.dll** 并将其放置在：
 
 ```
 DEVOUR/Mods/
@@ -66,38 +66,38 @@ DevourCore 会自动加载。
 ## 功能
 
 ### 性能优化
-![Optimization](./images/OptimizeZN.PNG)  
+![Optimization](./images/OptimizeCN.PNG)  
 - 渲染距离控制  
 - 禁用天气效果  
 
 ### 自定义
-![HSV](./images/hsvZN.PNG)  
+![HSV](./images/hsvCN.PNG)  
 - 666 图标调整  
 - 服装颜色控制  
 
 ### 速通工具
-![Speedrun](./images/speedrunZN.PNG)  
+![Speedrun](./images/speedrunCN.PNG)  
 - 即时交互（瞬时拾取/开门等）  
 - 阁楼刷新行为控制  
 - 自动开始（可设置延迟）  
 
 ### 自定义视野
-![FOV](./images/fovZN.PNG)  
+![FOV](./images/fovCN.PNG)  
 - 可调节视野数值  
 - 热键快速切换  
 
 ### 反作弊监测
-![Anticheat](./images/anticheatZN.PNG)  
+![Anticheat](./images/anticheatCN.PNG)  
 - 移动速度异常检测  
 - 可配置报警系统  
 
 ### 菜单自定义
-![Menu](./images/menuZN.PNG)  
+![Menu](./images/menuCN.PNG)  
 - 基于地图的菜单背景切换  
 - 菜单/大厅音乐开关  
 
 ### 客户端设置
-![Settings](./images/settingsZN.PNG)  
+![Settings](./images/settingsCN.PNG)  
 - 菜单快捷键  
 - 主题颜色  
 - 功能分类开启/关闭  
@@ -106,7 +106,7 @@ DevourCore 会自动加载。
 ---
 
 ## 信息系统  
-![Info](./images/InfoZN.png)
+![Info](./images/InfoCN.png)
 
 DevourCore 在每个主要分类旁都提供一个小型 **“i” 信息图标**。  
 将鼠标悬停其上时，你会看到：
