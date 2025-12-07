@@ -142,6 +142,13 @@ Use responsibly and avoid disrupting other players.
 
 ---
 
+## Contact Us
+
+If you have any questions or doubts, feel free to reach out on **Discord**: 
+- steany
+- queen.mikasa
+
+---
 ## License
 
 DevourCore is licensed under the **GNU GPL-3.0**.  
