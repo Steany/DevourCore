@@ -28,7 +28,6 @@
 ## 目录
 - [概述](#概述)
 - [安装](#安装)
-- [安装视频](#安装视频)
 - [功能](#功能)
 - [信息系统](#信息系统)
 - [最终说明](#最终说明)
@@ -63,20 +62,6 @@ DEVOUR/Mods/
 
 ### 5. 启动游戏  
 DevourCore 会自动加载。
-
----
-
-## 安装视频
-
-如果你想观看安装过程的可视化教程，可参考下面的逐步视频：
-
-<p align="center">
-  <a href="https://youtu.be/-xMP3mihvD8">
-    <img src="https://img.shields.io/badge/YouTube-安装教程-red?logo=youtube" />
-  </a>
-</p>
-
----
 
 ## 功能
 
