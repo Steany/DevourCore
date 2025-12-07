@@ -23,6 +23,6 @@ All notable changes to this project will be documented in this file.
 
 ## [1.0.2] - Patch Notes
 
-- Added Chinese language support (swappable in settings).
-- Fixed an issue where weather audios wouldn’t play when Disable Music in-game was enabled.
+- Added Chinese language support (swappable in Settings).
+- Fixed an issue where weather audios wouldn’t play when **Disable Music in-game** was enabled.
 - Removed weather audios when **Disable Weather** option is enabled
