@@ -66,38 +66,38 @@ DevourCore 会自动加载。
 ## 功能
 
 ### 性能优化
-![Optimization](./images/OptimizeCN.PNG)  
+![Optimization](./images/optimizeCN.png)  
 - 渲染距离控制  
 - 禁用天气效果  
 
 ### 自定义
-![HSV](./images/hsvCN.PNG)  
+![HSV](./images/hsvCN.png)  
 - 666 图标调整  
 - 服装颜色控制  
 
 ### 速通工具
-![Speedrun](./images/speedrunCN.PNG)  
+![Speedrun](./images/speedrunCN.png)  
 - 即时交互（瞬时拾取/开门等）  
 - 阁楼刷新行为控制  
 - 自动开始（可设置延迟）  
 
 ### 自定义视野
-![FOV](./images/fovCN.PNG)  
+![FOV](./images/fovCN.png)  
 - 可调节视野数值  
 - 热键快速切换  
 
 ### 反作弊监测
-![Anticheat](./images/anticheatCN.PNG)  
+![Anticheat](./images/anticheatCN.png)  
 - 移动速度异常检测  
 - 可配置报警系统  
 
 ### 菜单自定义
-![Menu](./images/menuCN.PNG)  
+![Menu](./images/menuCN.png)  
 - 基于地图的菜单背景切换  
 - 菜单/大厅音乐开关  
 
 ### 客户端设置
-![Settings](./images/settingsCN.PNG)  
+![Settings](./images/settingsCN.png)  
 - 菜单快捷键  
 - 主题颜色  
 - 功能分类开启/关闭  
