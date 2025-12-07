@@ -26,7 +26,6 @@
 ---
 
 ## Table of Contents
-- [Installation Guide](#installation-guide)
 - [Overview](#overview)
 - [Installation](#installation)
 - [Features](#features)
