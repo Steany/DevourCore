@@ -127,6 +127,14 @@ DevourCore 专为自定义、实验性功能以及游戏便捷性改进而设计
 
 ---
 
+## 联系我们
+
+如果你有任何问题或疑问，欢迎通过 **Discord** 联系我们： 
+- steany
+- queen.mikasa
+
+---
+
 ## 许可证
 
 DevourCore 使用 **GNU GPL-3.0** 许可证发布。  
