@@ -26,3 +26,10 @@ All notable changes to this project will be documented in this file.
 - Added Chinese language support (swappable in Settings).
 - Fixed an issue where weather audios wouldn’t play when **Disable Music in-game** was enabled.
 - Removed weather audios when **Disable Weather** option is enabled
+
+## [1.0.3] - Patch Notes
+
+- Fixed menu background positioning incorrectly after returning to the lobby when **Custom Backgrounds** were enabled
+- Fixed menu camera bugging when starting a match or joining a lobby when **Custom Backgrounds** were enabled
+- Fixed some weather audios still playing in The Carnival when **Disable Weather Effects** was enabled
+- Fixed any unrelated audios being muted when **Disable Music In-Game** was enabled
