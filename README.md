@@ -5,7 +5,7 @@
   <a href="https://store.steampowered.com/app/1274570/DEVOUR/"><img src="https://img.shields.io/badge/game-devour-blueviolet" /></a>
   <a href="https://melonwiki.xyz/"><img src="https://img.shields.io/badge/loader-melonloader-orange" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-green" /></a>
-  <a href="https://github.com/Steany/DevourCore/releases"><img src="https://img.shields.io/badge/version-1.0.2-purple" /></a>
+  <a href="https://github.com/Steany/DevourCore/releases"><img src="https://img.shields.io/badge/version-1.0.3-purple" /></a>
 </p>
 
 <p align="center" style="margin-top: 10px;">
