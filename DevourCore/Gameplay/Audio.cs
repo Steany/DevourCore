@@ -1,4 +1,4 @@
-﻿using MelonLoader;
+using MelonLoader;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,6 +43,7 @@ namespace DevourCore
                 "farmhouse-bgm-4-6",
                 "farmhouse-bgm-7-10",
                 "farmhouse-bgm-7-10-inside",
+                "farmhouse-bgm-7-10-outside",
                 "farmhouse-bgm-8-10",
 
                 "intro-bgm",
@@ -51,9 +52,12 @@ namespace DevourCore
                 "asylum-bgm-8-10",
 
                 "Devour_The Inn_BGM_Levels1-3",
-                "Devour_The Inn_Enrage BGM_Levels 1-3",
-                "Devour_The Inn_Enrage BGM_Levels 4-6",
-                "Devour_The Inn_BGM Enrage_Levels 7-10",
+                "Devour_The Inn_Enrage BGM_Levels1-3",
+                "Devour_The Inn_Enrage BGM_Levels4-6",
+                "Devour_The Inn_BGM_Levels4-6",
+                "Devour_The Inn_BGM Enrage_Levels7-10",
+                "Devour_The Inn_BGM_Levels6-10",
+                "Devour_The Inn_BGM_Levels7-10",
 
                 "Devour_The Town_BGM_Levels 0-3",
                 "Devour_The Town_BGM_Levels 4-6",
