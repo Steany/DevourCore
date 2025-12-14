@@ -33,3 +33,7 @@ All notable changes to this project will be documented in this file.
 - Fixed menu camera bugging when starting a match or joining a lobby when **Custom Backgrounds** were enabled
 - Fixed some weather audios still playing in The Carnival when **Disable Weather Effects** was enabled
 - Fixed any unrelated audios being muted when **Disable Music In-Game** was enabled
+
+## [1.0.4] - Patch Notes
+
+- Fixed an issue where some background music would still play when **Disable Music In-Game** was enabled
