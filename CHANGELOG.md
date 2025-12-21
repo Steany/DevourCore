@@ -25,15 +25,37 @@ All notable changes to this project will be documented in this file.
 
 - Added Chinese language support (swappable in Settings).
 - Fixed an issue where weather audios wouldn’t play when **Disable Music in-game** was enabled.
-- Removed weather audios when **Disable Weather** option is enabled
+- Removed weather audios when **Disable Weather** option is enabled.
 
 ## [1.0.3] - Patch Notes
 
-- Fixed menu background positioning incorrectly after returning to the lobby when **Custom Backgrounds** were enabled
-- Fixed menu camera bugging when starting a match or joining a lobby when **Custom Backgrounds** were enabled
-- Fixed some weather audios still playing in The Carnival when **Disable Weather Effects** was enabled
-- Fixed any unrelated audios being muted when **Disable Music In-Game** was enabled
+- Fixed menu background positioning incorrectly after returning to the lobby when **Custom Backgrounds** were enabled.
+- Fixed menu camera bugging when starting a match or joining a lobby when **Custom Backgrounds** were enabled.
+- Fixed some weather audios still playing in The Carnival when **Disable Weather Effects** was enabled.
+- Fixed any unrelated audios being muted when **Disable Music In-Game** was enabled.
 
 ## [1.0.4] - Patch Notes
 
-- Fixed an issue where some background music would still play when **Disable Music In-Game** was enabled
+- Fixed an issue where some background music would still play when **Disable Music In-Game** was enabled.
+
+## [1.1.0] - Patch Notes
+
+- Major GUI improvements and visual changes.
+
+- Fixed some background music still playing when **Disable Music In-Game** was enabled.
+
+- Muted weather effect sounds in Asylum when **Weather Sounds** are disabled.
+
+-  Fixed certain weather effect sounds still playing when **Weather Sounds** are disabled.
+
+- Added **Icon** HSV support for all icons from level **70** and **above**.
+
+- Fixed an issue where colored HSV icons persisted when another player joined the lobby.
+
+- Implemented an improved GUI **Theme Customization** system.
+
+- Added a separate option to **Mute Weather Effect** sounds.
+
+- Updated the **Render Distance** setting to work in menus without requiring it to be enabled In-Game.
+
+- Added an option to customize the **Anticheat** alert location.
