@@ -85,18 +85,18 @@ If you prefer a visual walkthrough, you can follow this step-by-step installatio
 - Render distance control  
 - Disable weather effects  
 
-### HSV Customization
+### HSV
 ![HSV](./images/hsv.png)  
 - 666 icon HSV  
 - Outfit HSV controls  
 
-### Speedrun Tools
+### Speedrun
 ![Speedrun](./images/speedrun.png)  
 - Instant interaction  
 - Attic spawn behavior  
 - Auto-start with delay options  
 
-### Custom FOV
+### FOV
 ![FOV](./images/fov.png)  
 - Adjustable FOV  
 - Hotkey toggle  
@@ -106,12 +106,12 @@ If you prefer a visual walkthrough, you can follow this step-by-step installatio
 - Movement/speed anomaly detection  
 - Configurable alert system  
 
-### Menu Customization
-![Menu](./images/menu.png)  
+### Misc
+![Menu](./images/misc.png)  
 - Map-based menu backgrounds  
 - Toggle menu/lobby music  
 
-### Client Settings
+### Settings
 ![Settings](./images/settings.png)  
 - Menu keybind  
 - Theme color  
@@ -121,7 +121,7 @@ If you prefer a visual walkthrough, you can follow this step-by-step installatio
 ---
 
 ## Info System
-![Info](./images/Info.png)
+![Info](./images/info.png)
 
 DevourCore includes an integrated **Info System** displayed as a small **“i” icon** in every major category.  
 When you hover your mouse over these icons, a detailed tooltip appears explaining:
