@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4678B4C5-1CCF-414E-928A-6505C8AC8079}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DevourCore</RootNamespace>
+    <AssemblyName>DevourCore</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="AsmResolver">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\AsmResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="AsmResolver.DotNet">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\AsmResolver.DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="AsmResolver.PE">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\AsmResolver.PE.dll</HintPath>
+    </Reference>
+    <Reference Include="AsmResolver.PE.File">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\AsmResolver.PE.File.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="AssetRipper.VersionUtilities">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\AssetRipper.VersionUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="AssetsTools.NET">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\AssetsTools.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="bHapticsLib">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\bHapticsLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DevourCore">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\DevourCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppAstarPathfindingProject">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppAstarPathfindingProject.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppBehaviorDesigner.Runtime">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppBehaviorDesigner.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppbolt">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2Cppbolt.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppbolt.user">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2Cppbolt.user.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppBoxophobic.AtmosphericHeightFog.Runtime">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppBoxophobic.AtmosphericHeightFog.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppBoxophobic.Utils.Scripts">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppBoxophobic.Utils.Scripts.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppBSPT_Runtime">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppBSPT_Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppcom.rlabrecque.steamworks.net">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2Cppcom.rlabrecque.steamworks.net.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppDissonanceVoip">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppDissonanceVoip.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppHairDesigner_Runtime">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppHairDesigner_Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppInterop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Generator">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppInterop.Generator.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.HarmonySupport">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppInterop.HarmonySupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppJBooth.MicroSplat.Core">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppJBooth.MicroSplat.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppMono.Security">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppMono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppOpsive.Shared.Game">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppOpsive.Shared.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppOpsive.Shared.Inventory">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppOpsive.Shared.Inventory.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppOpsive.Shared.Utility">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppOpsive.Shared.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppOpsive.UltimateCharacterController">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppOpsive.UltimateCharacterController.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppOpsive.UltimateCharacterController.AddOns">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppOpsive.UltimateCharacterController.AddOns.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppOpsive.UltimateCharacterController.AddOns.VR.Demo">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppOpsive.UltimateCharacterController.AddOns.VR.Demo.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppOpsive.UltimateCharacterController.Demo">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppOpsive.UltimateCharacterController.Demo.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppPathfinding.ClipperLib">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppPathfinding.ClipperLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppPathfinding.Ionic.Zip.Reduced">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppPathfinding.Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppPathfinding.Poly2Tri">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppPathfinding.Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppPhoton3Unity3D">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppPhoton3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppPhotonRealtime">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppPhotonRealtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppRewired_Core">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppRewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Configuration">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppSystem.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Numerics">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppSystem.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Xml">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppSystem.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppudpkit">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2Cppudpkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppudpkit.common">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2Cppudpkit.common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppudpkit.platform.dotnet">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2Cppudpkit.platform.dotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppudpkit.platform.photon">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2Cppudpkit.platform.photon.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppUIEffect">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppUIEffect.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppVendor">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppVendor.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppVolumetricLights">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Il2CppVolumetricLights.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Diagnostics.NETCore.Client">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Microsoft.Diagnostics.NETCore.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Diagnostics.Runtime">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Microsoft.Diagnostics.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Backports">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\MonoMod.Backports.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.ILHelpers">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\MonoMod.ILHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tomlet">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Tomlet.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Unity.Profiling.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityUIExtensions">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\UnityUIExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocketDotNet">
+      <HintPath>..\..\..\..\AppData\Roaming\Documents\DEVOUR\Modding\Assemblies\WebSocketDotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anticheat.cs" />
+    <Compile Include="Audio.cs" />
+    <Compile Include="CN.cs" />
+    <Compile Include="Console.cs" />
+    <Compile Include="EN.cs" />
+    <Compile Include="FOV.cs" />
+    <Compile Include="GUI.cs" />
+    <Compile Include="Icon.cs" />
+    <Compile Include="Info.cs" />
+    <Compile Include="Localization.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Optimize.cs" />
+    <Compile Include="Outfit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Speedrun.cs" />
+    <Compile Include="Tabs.cs" />
+    <Compile Include="Weather.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
