@@ -5,7 +5,7 @@
   <a href="https://store.steampowered.com/app/1274570/DEVOUR/"><img src="https://img.shields.io/badge/game-devour-blueviolet" /></a>
   <a href="https://melonwiki.xyz/"><img src="https://img.shields.io/badge/loader-melonloader-orange" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-green" /></a>
-  <a href="https://github.com/Steany/DevourCore/releases"><img src="https://img.shields.io/badge/version-1.0.4-purple" /></a>
+  <a href="https://github.com/Steany/DevourCore/releases"><img src="https://img.shields.io/badge/version-1.1.0-purple" /></a>
 </p>
 
 <p align="center" style="margin-top: 10px;">
@@ -65,48 +65,49 @@ DevourCore 会自动加载。
 
 ## 功能
 
-### 性能优化
+### 优化
 ![Optimization](./images/optimizeCN.png)  
 - 渲染距离控制  
-- 禁用天气效果  
+- 禁用天气效果并静音音频  
 
-### 自定义
+### HSV
 ![HSV](./images/hsvCN.png)  
-- 666 图标调整  
-- 服装颜色控制  
+- 等级 70 至 666 图标 HSV 调整  
+- 服装 HSV 调整  
 
-### 速通工具
+### 速通
 ![Speedrun](./images/speedrunCN.png)  
-- 即时交互（瞬时拾取/开门等）  
-- 阁楼刷新行为控制  
+- 即时交互  
+- 阁楼出生点  
 - 自动开始（可设置延迟）  
 
-### 自定义视野
+### 视野（FOV）
 ![FOV](./images/fovCN.png)  
-- 可调节视野数值  
-- 热键快速切换  
+- 可调节视野范围  
+- 热键切换  
 
-### 反作弊监测
+### 反作弊
 ![Anticheat](./images/anticheatCN.png)  
-- 移动速度异常检测  
-- 可配置报警系统  
+- 移动 / 速度异常检测  
+- 可配置警报系统  
 
-### 菜单自定义
-![Menu](./images/menuCN.png)  
-- 基于地图的菜单背景切换  
-- 菜单/大厅音乐开关  
+### 杂项
+![Misc](./images/miscCN.png)  
+- 基于地图的菜单背景  
+- 多种音频设置  
 
-### 客户端设置
+### 设置
 ![Settings](./images/settingsCN.png)  
-- 菜单快捷键  
-- 主题颜色  
-- 功能分类开启/关闭  
+- 菜单快捷键绑定  
+- 主题自定义  
+- 分类开关  
 - 完全重置选项  
+- 语言切换器  
 
 ---
 
-## 信息系统  
-![Info](./images/InfoCN.png)
+## 信息系统
+![Info](./images/infoCN.png)
 
 DevourCore 在每个主要分类旁都提供一个小型 **“i” 信息图标**。  
 将鼠标悬停其上时，你会看到：
@@ -124,14 +125,6 @@ DevourCore 在每个主要分类旁都提供一个小型 **“i” 信息图标*
 
 DevourCore 专为自定义、实验性功能以及游戏便捷性改进而设计。  
 请合理使用，避免影响其他玩家。
-
----
-
-## 联系我们
-
-如果你有任何问题或疑问，欢迎通过 **Discord** 联系我们： 
-- steany
-- queen.mikasa
 
 ---
 
