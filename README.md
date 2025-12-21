@@ -83,17 +83,17 @@ If you prefer a visual walkthrough, you can follow this step-by-step installatio
 ### Optimization
 ![Optimization](./images/optimize.png)  
 - Render distance control  
-- Disable weather effects  
+- Disable weather effects and mute audio  
 
 ### HSV
 ![HSV](./images/hsv.png)  
-- 666 icon HSV  
-- Outfit HSV controls  
+- Level 70 to 666 icon HSV  
+- Outfit HSV  
 
 ### Speedrun
 ![Speedrun](./images/speedrun.png)  
 - Instant interaction  
-- Attic spawn behavior  
+- Attic spawn  
 - Auto-start with delay options  
 
 ### FOV
@@ -107,16 +107,17 @@ If you prefer a visual walkthrough, you can follow this step-by-step installatio
 - Configurable alert system  
 
 ### Misc
-![Menu](./images/misc.png)  
+![Misc](./images/misc.png)  
 - Map-based menu backgrounds  
-- Toggle menu/lobby music  
+- Various audio settings
 
 ### Settings
 ![Settings](./images/settings.png)  
 - Menu keybind  
-- Theme color  
+- Theme customization
 - Category toggles  
-- Full reset option  
+- Full reset option
+- Language switcher
 
 ---
 
