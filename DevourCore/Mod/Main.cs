@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-[assembly: MelonInfo(typeof(DevourCore.Main), "DevourCore", "1.1.0", "Steany & Mikasa :3")]
+[assembly: MelonInfo(typeof(DevourCore.Main), "DevourCore", "1.1.1", "Steany & Mikasa :3")]
 [assembly: MelonGame("Straight Back Games", "DEVOUR")]
 
 namespace DevourCore
@@ -335,4 +335,5 @@ namespace DevourCore
 			Menu.IsStartingGame = true;
 		}
 	}
+
 }
