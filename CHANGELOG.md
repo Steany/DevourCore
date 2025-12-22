@@ -55,6 +55,6 @@ All notable changes to this project will be documented in this file.
 
 - Fixed Render Distance **Menu** and **In-Game** toggles interfering with each other
 - **Auto Start** can now be disabled In-Game
-- **Client Settings** can no longer be resest In-Game
+- **Client Settings** can no longer be reset In-Game
 - Added text shadow to the **Checkboxes** in the GUI
 
