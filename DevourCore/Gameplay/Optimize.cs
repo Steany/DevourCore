@@ -1,4 +1,4 @@
-﻿using MelonLoader;
+using MelonLoader;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
@@ -64,6 +64,10 @@ namespace DevourCore
 		private bool _isMollySceneCached = false;
 
 		private bool _wasCullActive = false;
+
+		private bool _cullOverrideActive = false;
+		private bool _savedCullEnabled;
+		private bool _savedApplyInMenu;
 
 		private static readonly KeyCode[] AllKeyCodes = (KeyCode[])Enum.GetValues(typeof(KeyCode));
 
@@ -305,7 +309,7 @@ namespace DevourCore
 			_cullToggleKey = prefCullToggleKey.Value;
 			_muteWeatherAudio = prefMuteWeatherAudio.Value;
 
-			_cullNeedsReapply = _cullEnabled;
+			_cullNeedsReapply = _cullEnabled || _applyInMenu;
 		}
 
 		public void ApplyFirstRunDefaults(MelonPreferences_Category prefsCategory)
@@ -418,23 +422,22 @@ namespace DevourCore
 		{
 			if (Input.GetKeyDown(_cullToggleKey) && !_isCapturingCullKey)
 			{
-				_cullEnabled = !_cullEnabled;
-				prefCullEnabled.Value = _cullEnabled;
-				prefs.SaveToFile(false);
-
-				if (!_cullEnabled)
+				if (!_cullOverrideActive)
 				{
-					RestoreAllCameras();
-					originalById.Clear();
-					_cachedCameras = null;
-					sharedCullDistances = null;
-					sharedValue = -1f;
-					_cullNeedsReapply = false;
-					_wasCullActive = false;
+					_savedCullEnabled = _cullEnabled;
+					_savedApplyInMenu = _applyInMenu;
+
+					SetCullEnabled(false, prefs);
+					SetApplyInMenu(false, prefs);
+
+					_cullOverrideActive = true;
 				}
 				else
 				{
-					_cullNeedsReapply = true;
+					SetCullEnabled(_savedCullEnabled, prefs);
+					SetApplyInMenu(_savedApplyInMenu, prefs);
+
+					_cullOverrideActive = false;
 				}
 			}
 		}
@@ -678,21 +681,7 @@ namespace DevourCore
 			_cullEnabled = enabled;
 			prefCullEnabled.Value = enabled;
 			prefs.SaveToFile(false);
-
-			if (!_cullEnabled)
-			{
-				RestoreAllCameras();
-				originalById.Clear();
-				_cachedCameras = null;
-				sharedCullDistances = null;
-				sharedValue = -1f;
-				_cullNeedsReapply = false;
-				_wasCullActive = false;
-			}
-			else
-			{
-				_cullNeedsReapply = true;
-			}
+			_cullNeedsReapply = true;
 		}
 
 		public void SetApplyInMenu(bool apply, MelonPreferences_Category prefsCategory)
@@ -700,8 +689,7 @@ namespace DevourCore
 			_applyInMenu = apply;
 			prefApplyInMenu.Value = apply;
 			prefs.SaveToFile(false);
-			if (_cullEnabled || inMenu)
-				_cullNeedsReapply = true;
+			_cullNeedsReapply = true;
 		}
 
 		public void SetCullRadius(float radius, MelonPreferences_Category prefsCategory)
