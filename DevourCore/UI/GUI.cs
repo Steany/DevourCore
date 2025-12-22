@@ -1,4 +1,4 @@
-﻿using MelonLoader;
+using MelonLoader;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -804,23 +804,30 @@ namespace DevourCore
 
 			GUILayout.Space(6);
 
-			GUI.enabled = inMenu;
+			bool forceStartOn = speedrunTab.ForceStartEnabled;
+			bool canToggleHere = inMenu || (!inMenu && forceStartOn);
 
-			bool newForceStart = DrawCustomToggle(speedrunTab.ForceStartEnabled, Loc.GUI.Toggle_ForceStart);
-			if (newForceStart != speedrunTab.ForceStartEnabled && inMenu)
+			GUI.enabled = canToggleHere;
+			bool newForceStart = DrawCustomToggle(forceStartOn, Loc.GUI.Toggle_ForceStart);
+			GUI.enabled = true;
+
+			if (newForceStart != forceStartOn)
 			{
-				if (newForceStart && !speedrunTab.ForceStartEnabled)
-					TriggerSpeedrunPopup();
+				if (inMenu || !newForceStart)
+				{
+					if (newForceStart && !forceStartOn)
+						TriggerSpeedrunPopup();
 
-				speedrunTab.SetForceStartEnabled(newForceStart, prefs, inMenu);
+					speedrunTab.SetForceStartEnabled(newForceStart, prefs, inMenu || !newForceStart);
+				}
 			}
 
 			GUILayout.Space(5);
 
+			GUI.enabled = inMenu;
 			bool newUseArm = DrawCustomToggle(speedrunTab.UseArmingWindow, Loc.GUI.Toggle_UseArm);
 			if (newUseArm != speedrunTab.UseArmingWindow && inMenu)
 				speedrunTab.SetUseArmingWindow(newUseArm, prefs);
-
 			GUI.enabled = true;
 
 			GUILayout.Space(10);
@@ -1330,6 +1337,10 @@ namespace DevourCore
 			GUILayout.BeginHorizontal();
 			GUILayout.FlexibleSpace();
 			string resetLabel = resetConfirmPending ? Loc.GUI.AreYouSure : Loc.GUI.ResetClientSettings;
+
+			bool canReset = menuTab != null && menuTab.IsMenuSceneActive();
+			GUI.enabled = canReset;
+
 			if (GUILayout.Button(GUIContent.none, buttonStyle, GUILayout.Width(200)))
 			{
 				if (!resetConfirmPending)
@@ -1349,6 +1360,9 @@ namespace DevourCore
 					ResetGuiThemeToDefaults(inMenu, inValidMap);
 				}
 			}
+
+			GUI.enabled = true;
+
 			Rect r2 = GUILayoutUtility.GetLastRect();
 			Rect r2Inset = new Rect(r2.x + 1f, r2.y + 1f,
 				r2.width - 2f, r2.height - 2f);
