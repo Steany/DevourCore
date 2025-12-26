@@ -145,7 +145,7 @@ Utilize de forma responsável e evite impactar negativamente outros jogadores.
 
 ---
 
-## Como Desinstalar o DevourCore
+## Como Desinstalar 
 
 Desinstalar o DevourCore é simples e não requer ferramentas adicionais.
 
