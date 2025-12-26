@@ -31,6 +31,7 @@
 - [Features](#features)
 - [Info System](#info-system)
 - [Final Notes](#final-notes)
+- [How to Uninstall DevourCore](#how-to-uninstall-devourcore)
 - [License](#license)
 
 ---
@@ -51,7 +52,7 @@ Download [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) if y
 Download [MelonLoader](https://melonwiki.xyz/#/) and point the installer to `DEVOUR.exe`.
 
 ### 3. Run DEVOUR once  
-MelonLoader will generate necessary folders.
+MelonLoader will generate the required folders automatically.
 
 ### 4. Install DevourCore  
 Download **DevourCore.dll** from the [Releases](https://github.com/Steany/DevourCore/releases) section  
@@ -83,28 +84,28 @@ If you prefer a visual walkthrough, you can follow this step-by-step installatio
 ### Optimization
 ![Optimization](./images/optimize.png)  
 - Render distance control  
-- Disable weather effects and mute audio  
+- Disable weather effects and mute audio
 
 ### HSV
 ![HSV](./images/hsv.png)  
 - Level 70 to 666 icon HSV  
-- Outfit HSV  
+- Outfit HSV
 
 ### Speedrun
 ![Speedrun](./images/speedrun.png)  
 - Instant interaction  
 - Attic spawn  
-- Auto-start with delay options  
+- Auto-start with delay options
 
 ### FOV
 ![FOV](./images/fov.png)  
 - Adjustable FOV  
-- Hotkey toggle  
+- Hotkey toggle
 
 ### Anticheat
 ![Anticheat](./images/anticheat.png)  
-- Movement/speed anomaly detection  
-- Configurable alert system  
+- Movement and speed anomaly detection  
+- Configurable alert system
 
 ### Misc
 ![Misc](./images/misc.png)  
@@ -114,9 +115,9 @@ If you prefer a visual walkthrough, you can follow this step-by-step installatio
 ### Settings
 ![Settings](./images/settings.png)  
 - Menu keybind  
-- Theme customization
+- Theme customization  
 - Category toggles  
-- Full reset option
+- Full reset option  
 - Language switcher
 
 ---
@@ -130,27 +131,47 @@ When you hover your mouse over these icons, a detailed tooltip appears explainin
 - What the feature does  
 - Recommended usage  
 - Technical behavior  
-- Notes, limitations, and warnings if necessary  
+- Notes, limitations, and warnings when applicable
 
-This system provides clarity and ensures users can fully understand each feature without external documentation.
+This system ensures users can fully understand each feature without relying on external documentation.
 
 ---
 
 ## Final Notes
 
-DevourCore is designed for customization, experimentation, and QoL improvements.  
-Use responsibly and avoid disrupting other players.
+DevourCore is designed for customization, experimentation, and quality-of-life improvements.  
+Please use it responsibly and avoid disrupting other players or online sessions.
+
+---
+
+## How to Uninstall DevourCore
+
+Removing DevourCore is straightforward and does not require any additional tools.
+
+Simply delete the following folders and files from your **DEVOUR installation directory**:
+
+```
+MelonLoader
+Mods
+Plugins
+UserData
+UserLibs
+version.dll
+```
+
+Once these files are removed, DEVOUR will return to its original, unmodded state.
 
 ---
 
 ## Contact Us
 
-If you have any questions or doubts, feel free to reach out on **Discord**: 
-- steany
+If you have any questions or doubts, feel free to reach out on **Discord**:
+- steany  
 - queen.mikasa
 
 ---
+
 ## License
 
 DevourCore is licensed under the **GNU GPL-3.0**.  
-See the [LICENSE](./LICENSE) file for details.
+See the [LICENSE](./LICENSE) file for more information.
