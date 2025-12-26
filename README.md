@@ -144,7 +144,7 @@ Please use it responsibly and avoid disrupting other players or online sessions.
 
 ---
 
-## How to Uninstall DevourCore
+## How to Uninstall 
 
 Removing DevourCore is straightforward and does not require any additional tools.
 
