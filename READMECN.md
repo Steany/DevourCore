@@ -31,6 +31,8 @@
 - [功能](#功能)
 - [信息系统](#信息系统)
 - [最终说明](#最终说明)
+- [如何卸载 DevourCore](#如何卸载-devourcore)
+- [联系我们](#联系我们)
 - [许可证](#许可证)
 
 ---
@@ -125,6 +127,33 @@ DevourCore 在每个主要分类旁都提供一个小型 **“i” 信息图标*
 
 DevourCore 专为自定义、实验性功能以及游戏便捷性改进而设计。  
 请合理使用，避免影响其他玩家。
+
+---
+
+## 如何卸载 DevourCore
+
+卸载 DevourCore 非常简单，并且不需要任何额外工具。
+
+只需在你的 **DEVOUR 安装目录** 中删除以下文件夹与文件：
+
+```
+MelonLoader
+Mods
+Plugins
+UserData
+UserLibs
+version.dll
+```
+
+删除完成后，DEVOUR 将恢复为原始的未修改状态。
+
+---
+
+## 联系我们
+
+如果你有任何问题或疑问，欢迎通过 **Discord** 联系我们：
+- steany  
+- queen.mikasa
 
 ---
 
