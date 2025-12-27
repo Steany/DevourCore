@@ -33,7 +33,7 @@
 - [Features](#features)
 - [Info System](#info-system)
 - [Final Notes](#final-notes)
-- [How to Uninstall DevourCore](#how-to-uninstall-devourcore)
+- [How to Uninstall](#how-to-uninstall)
 - [License](#license)
 
 ---
