@@ -82,44 +82,65 @@ If you prefer a visual walkthrough, you can follow this step-by-step installatio
 
 ## Features
 
-### Optimization
-![Optimization](./images/optimize.png)  
-- Render distance control  
-- Disable weather effects and mute audio
+### Optimize
+![Optimize](./images/optimize.png)
+- Render distance slider
+- Disable weather effects
+
+---
 
 ### HSV
-![HSV](./images/hsv.png)  
-- Level 70 to 666 icon HSV  
-- Outfit HSV
+![HSV](./images/hsv.png)
+- Icon HSV customization
+- Outfit HSV customization
+- Supports level 70 to 666 Icons 
+
+---
 
 ### Speedrun
-![Speedrun](./images/speedrun.png)  
-- Instant interaction  
-- Attic spawn  
-- Auto-start with delay options
+![Speedrun](./images/speedrun.png)
+- Instant interaction
+- Attic spawn
+- Auto Start
+- Auto-start timeout protection
 
-### FOV
-![FOV](./images/fov.png)  
-- Adjustable FOV  
-- Hotkey toggle
+---
 
-### Anticheat
-![Anticheat](./images/anticheat.png)  
-- Movement and speed anomaly detection  
-- Configurable alert system
+### Gameplay
+![Gameplay](./images/gameplay.png)
+- FOV Limit bypass
+- Look-Back
+- A bunch of audio controls
 
-### Misc
-![Misc](./images/misc.png)  
-- Map-based menu backgrounds  
-- Various audio settings
+---
+
+### Menu
+![Menu](./images/menu.png)
+- Custom menu background selection for every map
+- Remember Menu Busic
+
+---
+
+### HUD
+![HUD](./images/hud.png)
+- FPS Counter
+- CPS Counter
+- Coordinates
+- Enrage Status
+- Speed Detector
+- Game Time
+
+All elements are fully customizable.
+
+---
 
 ### Settings
-![Settings](./images/settings.png)  
-- Menu keybind  
-- Theme customization  
-- Category toggles  
-- Full reset option  
-- Language switcher
+![Settings](./images/settings.png)
+- Client Keybind
+- Appearance Customization
+- Category Visibility Toggles
+- Language Selector
+- Reset Client Settings
 
 ---
 
@@ -132,7 +153,7 @@ When you hover your mouse over these icons, a detailed tooltip appears explainin
 - What the feature does  
 - Recommended usage  
 - Technical behavior  
-- Notes, limitations, and warnings when applicable
+- Notes, limitations, and warnings if necessary
 
 This system ensures users can fully understand each feature without relying on external documentation.
 
@@ -141,7 +162,7 @@ This system ensures users can fully understand each feature without relying on e
 ## Final Notes
 
 DevourCore is designed for customization, experimentation, and quality-of-life improvements.  
-Please use it responsibly and avoid disrupting other players or online sessions.
+Please use it responsibly and avoid disrupting other players.
 
 ---
 
