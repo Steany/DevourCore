@@ -58,3 +58,29 @@ All notable changes to this project will be documented in this file.
 - **Client Settings** can no longer be reset In-Game
 - Added text shadow to the **Checkboxes** in the GUI
 
+## [1.2.0] - Major Update
+- Huge **GUI** visual improvements and overall polish
+- Added new **Look-Back** feature with custom keybind and toggle mode support
+- Fixed weather not disabling correctly after the latest update if **Disable Weather Effects** is enabled
+- Added new **HUD** tab with full color and position customization
+  Includes **FPS**, **CPS**, **Coordinates**, **Enrage Status**, **Speed Detector**, **Game Time** with customizable prefixes, locations, and more
+- Removed **FOV** and **Anticheat** categories and moved those features into better organized ones
+- Added new **Gameplay** category containing **FOV**, **Look-Back**, and **Audio Settings**
+- Renamed **Misc** to **Menu** and kept only menu customization and the **Remember Menu Music** option
+- Added 1 second cooldown when switching backgrounds to prevent the mod from breaking
+- Added dedicated **Appearance** section with many new customization options
+- Added **Chroma Theme** option
+- Added **Background Opacity** option
+- Added **Default Background** option
+- Polished texts and labels across the entire client UI
+- Added Devour **Click Sounds** option for the client GUI
+- Reworked **Info** tooltips and added new ones for recently added features
+- Added **Portuguese Brazilian** language support
+- Added new text style for buttons and sliders, switchable between **Outline** and **Shadow**
+- Restored old **Attic Spawn** door behavior where doors opened before triggering Anna stay open after it
+- Potentially fixed an issue where players sometimes weren’t teleported to the attic when **Attic Spawn** was enabled (especially in multiplayer)
+- Added text shadows for checkbox labels
+- Added new default settings when installing **DevourCore** for the first time or resetting the client
+- Fixed Category titles being misaligned
+
+
