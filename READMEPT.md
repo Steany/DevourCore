@@ -18,9 +18,7 @@
 <p align="center">
   <b>Um cliente leve para DEVOUR focado em QoL, otimização de desempenho, ferramentas de speedrun e customização visual.</b> 
   <p align="center">
-    <a href="https://github.com/Steany/DevourCore/blob/main/READMECN.md"><b>(中文 / Chinês)</b></a>
-    <br/>
-    <a href="https://github.com/Steany/DevourCore/blob/main/READMEPT.md"><b>(Português / PT-BR)</b></a>
+    <a href="https://github.com/Steany/DevourCore"><b>Ir para a página original</b></a>
   </p>
 </p>
 
@@ -53,7 +51,7 @@ Se você ainda não tem, baixe o [.NET 6.0](https://dotnet.microsoft.com/en-us/d
 ### 2. Instalar MelonLoader  
 Baixe o [MelonLoader](https://melonwiki.xyz/#/) e aponte o instalador para `DEVOUR.exe`.
 
-### 3. Abra o DEVOUR uma vez  
+### 3. Abrir o DEVOUR uma vez  
 O MelonLoader cria automaticamente todas as pastas necessárias.
 
 ### 4. Instalar DevourCore  
@@ -64,7 +62,7 @@ e jogue o arquivo em:
 DEVOUR/Mods/
 ```
 
-### 5. Inicie o jogo  
+### 5. Iniciar o jogo  
 O DevourCore carrega automaticamente.
 
 ---
@@ -83,14 +81,14 @@ Se preferir um passo a passo em vídeo:
 
 ## Funcionalidades
 
-### Optimize (Performance)
+### Otimização de Desempenho
 ![Optimize](./images/optimizeBR.png)
-- Slider de distância de renderização
+- Controle de distância de renderização
 - Desativar efeitos climáticos para ganhar FPS
 
 ---
 
-### HSV (Cores)
+### Personalização de Cores
 ![HSV](./images/hsvBR.png)
 - Customização de cores dos ícones
 - Customização HSV das roupas
@@ -98,31 +96,31 @@ Se preferir um passo a passo em vídeo:
 
 ---
 
-### Speedrun
+### Ferramentas de Speedrun
 ![Speedrun](./images/speedrunBR.png)
 - Interação instantânea
 - Spawn no sótão
-- Auto Start
-- Delay configurável do Auto Start
+- Início automático
+- Delay configurável do início automático
 
 ---
 
-### Gameplay
+### Melhorias de Gameplay
 ![Gameplay](./images/gameplayBR.png)
-- Bypass do limite de FOV
+- Remoção do limite de FOV
 - Olhar rápido para trás
 - Vários controles de áudio
 
 ---
 
-### Menu
+### Personalização do Menu
 ![Menu](./images/menuBR.png)
 - Fundo de menu customizado por mapa
 - Memória da música do menu
 
 ---
 
-### HUD
+### Interface HUD
 ![HUD](./images/hudBR.png)
 - Contador de FPS
 - Contador de CPS
@@ -135,11 +133,11 @@ Todos os elementos do HUD são totalmente configuráveis.
 
 ---
 
-### Settings
+### Configurações do Cliente
 ![Settings](./images/settingsBR.png)
 - Atalho do cliente
 - Customização visual
-- Toggle de categorias
+- Alternar categorias
 - Seletor de idioma
 - Reset completo das configurações
 
