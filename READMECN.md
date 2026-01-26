@@ -18,7 +18,7 @@
 <p align="center">
   <b>一个为 DEVOUR 打造的轻量级客户端，主打体验优化、性能调校、速通辅助和视觉自定义。</b> 
   <p align="center">
-    <a href="https://github.com/Steany/DevourCore"><b>（前往原始页面 / Go to original page）</b></a>
+    <a href="https://github.com/Steany/DevourCore"><b>（前往原始页面）</b></a>
   </p>
 </p>
 
