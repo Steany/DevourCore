@@ -102,8 +102,8 @@ If you prefer a visual walkthrough, you can follow this step-by-step installatio
 - Instant interaction
 - Attic spawn
 - Auto Start
-- Auto-start timeout protection
-
+- Auto Start Timeout
+  
 ---
 
 ### Gameplay
