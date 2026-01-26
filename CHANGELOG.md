@@ -77,7 +77,7 @@ All notable changes to this project will be documented in this file.
 - Reworked **Info** tooltips and added new ones for recently added features
 - Added **Portuguese Brazilian** language support
 - Added new text style for buttons and sliders, switchable between **Outline** and **Shadow**
-- Restored old **Attic Spawn** door behavior where doors opened before triggering Anna stay open after it
+- Restored old **Attic Spawn** door behavior where doors opened before triggering Anna remain open once triggered
 - Potentially fixed an issue where players sometimes weren’t teleported to the attic when **Attic Spawn** was enabled (especially in multiplayer)
 - Added text shadows for checkbox labels
 - Added new default settings when installing **DevourCore** for the first time or resetting the client
