@@ -32,7 +32,7 @@
 - [Features](#features)
 - [Info System](#info-system)
 - [Final Notes](#final-notes)
-- [How to Uninstall](#how-to-uninstall)
+- [Uninstallation](#uninstallation)
 - [License](#license)
 
 ---
@@ -166,7 +166,7 @@ Please use it responsibly and avoid disrupting other players.
 
 ---
 
-## How to Uninstall 
+## Uninstallation
 
 Removing DevourCore is straightforward and does not require any additional tools.
 
