@@ -67,18 +67,6 @@ DEVOUR/Mods/
 
 ---
 
-## 安装视频
-
-如果你更喜欢视频教程，可以直接看这个：
-
-<p align="center">
-  <a href="https://youtu.be/-xMP3mihvD8">
-    <img src="https://img.shields.io/badge/YouTube-安装教学-red?logo=youtube" />
-  </a>
-</p>
-
----
-
 ## 功能一览
 
 ### 性能优化
