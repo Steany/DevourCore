@@ -11,145 +11,171 @@
 <p align="center" style="margin-top: 10px;">
   <!-- Second row -->
   <a href="https://github.com/Steany/DevourCore/stargazers"><img src="https://img.shields.io/github/stars/Steany/DevourCore?label=stars&color=yellow" /></a>
-  <a href="https://github.com/Steany/DevourCore/issues"><img src="https://img.shields.io/github/issues/Steany/DevourCore?label=issues&color=orange" /></a>
   <a href="https://github.com/Steany/DevourCore/releases"><img src="https://img.shields.io/github/downloads/Steany/DevourCore/total?label=total%20downloads&color=blue" /></a>
-  <a href="https://github.com/Steany/DevourCore/releases/latest"><img src="https://img.shields.io/github/downloads/Steany/DevourCore/latest/DevourCore.dll?label=latest%20download&color=blueviolet" /></a>
+  <a href="https://github.com/Steany/DevourCore"><img src="https://komarev.com/ghpvc/?username=Steany&repo=DevourCore&label=views&color=blueviolet" /></a>
 </p>
 
 <p align="center">
-  <b>一个轻量级的 DEVOUR 客户端，包含便捷功能（QoL）、性能工具、速通辅助以及视觉自定义。</b>
+  <b>一个为 DEVOUR 打造的轻量级客户端，主打体验优化、性能调校、速通辅助和视觉自定义。</b> 
   <p align="center">
-    <a href="https://github.com/Steany/DevourCore"><b>(原始项目链接)</b></a>
+    <a href="https://github.com/Steany/DevourCore/blob/main/READMECN.md"><b>（中文版 / 给中国玩家）</b></a>
+    <br/>
+    <a href="https://github.com/Steany/DevourCore/blob/main/READMEPT.md"><b>（葡萄牙语 / Para Falantes de Português）</b></a>
   </p>
 </p>
 
 ---
 
 ## 目录
-- [概述](#概述)
-- [安装](#安装)
-- [安装视频](#安装视频)
-- [功能](#功能)
-- [信息系统](#信息系统)
-- [最终说明](#最终说明)
-- [如何卸载 DevourCore](#如何卸载-devourcore)
-- [联系我们](#联系我们)
+- [项目概览](#项目概览)
+- [安装方法](#安装方法)
+- [功能一览](#功能一览)
+- [信息提示系统](#信息提示系统)
+- [最后说明](#最后说明)
+- [卸载方法](#卸载方法)
 - [许可证](#许可证)
 
 ---
 
-## 概述
+## 项目概览
 
-DevourCore 是一个为 DEVOUR 基于 MelonLoader 所构建的模块化高功能客户端。  
-它专注于性能优化、视觉自定义、速通工具以及整体游戏体验改进（QoL）。
+DevourCore 是一个基于 MelonLoader 的 DEVOUR 模块化客户端。  
+目标很简单：**提帧数、减卡顿、少折腾、多爽玩**。  
+适合追求流畅体验、速通玩法以及个性化设置的玩家。
 
 ---
 
-## 安装
+## 安装方法
 
 ### 1. 安装 .NET 6.0  
-下载 [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) 如果你尚未安装。
+如果你还没装，请先下载 [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)。
 
 ### 2. 安装 MelonLoader  
-下载 [MelonLoader](https://melonwiki.xyz/#/) 并将安装程序指向 `DEVOUR.exe`。
+下载 [MelonLoader](https://melonwiki.xyz/#/)，安装时选择 `DEVOUR.exe`。
 
-### 3. 运行一次 DEVOUR  
-MelonLoader 会生成必要的文件夹。
+### 3. 启动一次 DEVOUR  
+第一次启动会自动生成所需文件夹。
 
 ### 4. 安装 DevourCore  
-从 [Releases](https://github.com/Steany/DevourCore/releases) 下载 **DevourCore.dll** 并将其放置在：
+前往 [Releases](https://github.com/Steany/DevourCore/releases) 下载 **DevourCore.dll**，  
+然后丢进：
 
 ```
 DEVOUR/Mods/
 ```
 
 ### 5. 启动游戏  
-DevourCore 会自动加载。
+进游戏即自动加载，无需额外操作。
 
 ---
 
 ## 安装视频
 
-如果你更喜欢视频教程，可以观看以下分步安装视频：
+如果你更喜欢视频教程，可以直接看这个：
 
 <p align="center">
   <a href="https://youtu.be/-xMP3mihvD8">
-    <img src="https://img.shields.io/badge/YouTube-Installation%20Tutorial-red?logo=youtube" />
+    <img src="https://img.shields.io/badge/YouTube-安装教学-red?logo=youtube" />
   </a>
 </p>
 
 ---
 
-## 功能
+## 功能一览
 
-### 优化
-![Optimization](./images/optimizeCN.png)  
-- 渲染距离控制  
-- 禁用天气效果并静音音频  
-
-### HSV
-![HSV](./images/hsvCN.png)  
-- 等级 70 至 666 图标 HSV 调整  
-- 服装 HSV 调整  
-
-### 速通
-![Speedrun](./images/speedrunCN.png)  
-- 即时交互  
-- 阁楼出生点  
-- 自动开始（可设置延迟）  
-
-### 视野（FOV）
-![FOV](./images/fovCN.png)  
-- 可调节视野范围  
-- 热键切换  
-
-### 反作弊
-![Anticheat](./images/anticheatCN.png)  
-- 移动 / 速度异常检测  
-- 可配置警报系统  
-
-### 杂项
-![Misc](./images/miscCN.png)  
-- 基于地图的菜单背景  
-- 多种音频设置  
-
-### 设置
-![Settings](./images/settingsCN.png)  
-- 菜单快捷键绑定  
-- 主题自定义  
-- 分类开关  
-- 完全重置选项  
-- 语言切换器  
+### Optimize（性能优化）
+![Optimize](./images/optimizeCN.png)
+- 可调渲染距离
+- 一键关闭天气特效，稳定帧数
 
 ---
 
-## 信息系统
+### HSV（颜色自定义）
+![HSV](./images/hsvCN.png)
+- 图标颜色自由调
+- 服装 HSV 自定义
+- 支持 70–666 等级图标
+
+---
+
+### Speedrun（速通工具）
+![Speedrun](./images/speedrunCN.png)
+- 秒交互
+- 阁楼出生点
+- 自动开局
+- 自动开局延迟设置
+
+---
+
+### Gameplay（玩法增强）
+![Gameplay](./images/gameplayCN.png)
+- 解除 FOV 限制
+- 快速回头
+- 多种音效控制
+
+---
+
+### Menu（菜单美化）
+![Menu](./images/menuCN.png)
+- 每张地图可单独设置菜单背景
+- 菜单音乐记忆功能
+
+---
+
+### HUD（信息显示）
+![HUD](./images/hudCN.png)
+- FPS 显示
+- CPS 显示
+- 坐标显示
+- 狂暴状态提示
+- 移速检测
+- 游戏计时
+
+所有 HUD 元素都可以自由开关和调整。
+
+---
+
+### Settings（客户端设置）
+![Settings](./images/settingsCN.png)
+- 客户端快捷键
+- 界面外观自定义
+- 分类显示开关
+- 语言切换
+- 一键重置设置
+
+---
+
+## 信息提示系统
 ![Info](./images/infoCN.png)
 
-DevourCore 在每个主要分类旁都提供一个小型 **“i” 信息图标**。  
-将鼠标悬停其上时，你会看到：
+DevourCore 内置 **信息提示系统**，  
+在每个主要分类中都会看到一个小小的 **“i” 图标**。
 
-- 功能介绍  
-- 推荐使用方式  
-- 技术行为说明  
-- 注意事项与限制  
+鼠标悬停后会直接告诉你：
 
-此系统让用户无需额外查阅文档即可理解每项功能。
+- 这个功能是干嘛的  
+- 推荐怎么用  
+- 背后的运行逻辑  
+- 可能的限制或注意事项  
 
----
-
-## 最终说明
-
-DevourCore 专为自定义、实验性功能以及游戏便捷性改进而设计。  
-请合理使用，避免影响其他玩家。
+不用翻文档，新手也能秒懂。
 
 ---
 
-## 如何卸载 
+## 最后说明
 
-卸载 DevourCore 非常简单，并且不需要任何额外工具。
+DevourCore 的核心理念只有一个：  
+**不破坏游戏，只让体验更爽。**  
 
-只需在你的 **DEVOUR 安装目录** 中删除以下文件夹与文件：
+请合理使用，别影响其他玩家的正常游戏体验。
+
+---
+
+## 卸载方法
+
+卸载非常简单，不留痕迹。
+
+直接在 **DEVOUR 安装目录** 删除下面这些即可：
 
 ```
 MelonLoader
@@ -160,13 +186,13 @@ UserLibs
 version.dll
 ```
 
-删除完成后，DEVOUR 将恢复为原始的未修改状态。
+删完就是原版游戏。
 
 ---
 
-## 联系我们
+## 联系方式
 
-如果你有任何问题或疑问，欢迎通过 **Discord** 联系我们：
+有问题可以在 **Discord** 找我们：
 - steany  
 - queen.mikasa
 
@@ -174,5 +200,5 @@ version.dll
 
 ## 许可证
 
-DevourCore 使用 **GNU GPL-3.0** 许可证发布。  
+DevourCore 使用 **GNU GPL-3.0** 协议。  
 详情请查看 [LICENSE](./LICENSE) 文件。
