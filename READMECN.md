@@ -18,7 +18,7 @@
 <p align="center">
   <b>一个为 DEVOUR 打造的轻量级客户端，主打体验优化、性能调校、速通辅助和视觉自定义。</b> 
   <p align="center">
-    <a href="https://github.com/Steany/DevourCore"><b>（前往原始页面）</b></a>
+    <a href="https://github.com/Steany/DevourCore"><b>前往原始页面</b></a>
   </p>
 </p>
 
@@ -81,14 +81,14 @@ DEVOUR/Mods/
 
 ## 功能一览
 
-### Optimize（性能优化）
+### 性能优化
 ![Optimize](./images/optimizeCN.png)
 - 可调渲染距离
 - 一键关闭天气特效，稳定帧数
 
 ---
 
-### HSV（颜色自定义）
+### 颜色自定义
 ![HSV](./images/hsvCN.png)
 - 图标颜色自由调
 - 服装 HSV 自定义
@@ -96,7 +96,7 @@ DEVOUR/Mods/
 
 ---
 
-### Speedrun（速通工具）
+### 速通工具
 ![Speedrun](./images/speedrunCN.png)
 - 秒交互
 - 阁楼出生点
@@ -105,7 +105,7 @@ DEVOUR/Mods/
 
 ---
 
-### Gameplay（玩法增强）
+### 玩法增强
 ![Gameplay](./images/gameplayCN.png)
 - 解除 FOV 限制
 - 快速回头
@@ -113,14 +113,14 @@ DEVOUR/Mods/
 
 ---
 
-### Menu（菜单美化）
+### 菜单美化
 ![Menu](./images/menuCN.png)
 - 每张地图可单独设置菜单背景
 - 菜单音乐记忆功能
 
 ---
 
-### HUD（信息显示）
+### 信息显示
 ![HUD](./images/hudCN.png)
 - FPS 显示
 - CPS 显示
@@ -133,7 +133,7 @@ DEVOUR/Mods/
 
 ---
 
-### Settings（客户端设置）
+### 客户端设置
 ![Settings](./images/settingsCN.png)
 - 客户端快捷键
 - 界面外观自定义
