@@ -117,7 +117,7 @@ If you prefer a visual walkthrough, you can follow this step-by-step installatio
 ### Menu
 ![Menu](./images/menu.png)
 - Custom menu background selection for every map
-- Remember Menu Busic
+- Remember Menu Music
 
 ---
 
