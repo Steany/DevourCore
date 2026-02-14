@@ -1,7 +1,5 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
-
 ## [1.0.0] - Initial Release
 
 - Added **Optimization** tab (render distance, weather effects)
@@ -59,6 +57,7 @@ All notable changes to this project will be documented in this file.
 - Added text shadow to the **Checkboxes** in the GUI
 
 ## [1.2.0] - Major Update
+
 - Huge **GUI** visual improvements and overall polish
 - Added new **Look-Back** feature with custom keybind and toggle mode support
 - Fixed weather not disabling correctly after the latest update if **Disable Weather Effects** is enabled
@@ -82,5 +81,14 @@ All notable changes to this project will be documented in this file.
 - Added text shadows for checkbox labels
 - Added new default settings when installing **DevourCore** for the first time or resetting the client
 - Fixed Category titles being misaligned
+
+## [1.2.1] - Patch Notes
+
+- Fixed **Game Time** positioning not saving correctly when changing scenes
+- Fixed **Game Time** color not saving when closing the game the game
+- Fixed **Enrage Status** not staying centered when its background is disabled
+- Added a checkbox to enable or disable FPS, CPS, and Coordinates in the **Menu**
+- Fixed Carnival carousel muting when **Mute Weather Sounds** is enabled
+
 
 
