@@ -85,7 +85,7 @@
 ## [1.2.1] - Patch Notes
 
 - Fixed **Game Time** positioning not saving correctly when changing scenes
-- Fixed **Game Time** color not saving when closing the game the game
+- Fixed **Game Time** color not saving when closing the game
 - Fixed **Enrage Status** not staying centered when its background is disabled
 - Added a checkbox to enable or disable FPS, CPS, and Coordinates in the **Menu**
 - Fixed Carnival carousel muting when **Mute Weather Sounds** is enabled
